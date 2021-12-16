@@ -13,7 +13,147 @@
 		13CC78FB276A78CD00978FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CC78F9276A78CD00978FDB /* Main.storyboard */; };
 		13CC78FD276A78CE00978FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CC78FC276A78CE00978FDB /* Assets.xcassets */; };
 		13CC7900276A78CE00978FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CC78FE276A78CE00978FDB /* LaunchScreen.storyboard */; };
+		13CC7910276B659500978FDB /* WoocerViewModel.docc in Sources */ = {isa = PBXBuildFile; fileRef = 13CC790F276B659500978FDB /* WoocerViewModel.docc */; };
+		13CC7916276B659500978FDB /* WoocerViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC790C276B659500978FDB /* WoocerViewModel.framework */; };
+		13CC791D276B659500978FDB /* WoocerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC791C276B659500978FDB /* WoocerViewModelTests.swift */; };
+		13CC791E276B659500978FDB /* WoocerViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CC790E276B659500978FDB /* WoocerViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13CC7921276B659500978FDB /* WoocerViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC790C276B659500978FDB /* WoocerViewModel.framework */; };
+		13CC7922276B659500978FDB /* WoocerViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC790C276B659500978FDB /* WoocerViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13CC7933276B65AD00978FDB /* WoocerView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 13CC7932276B65AD00978FDB /* WoocerView.docc */; };
+		13CC7939276B65AD00978FDB /* WoocerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC792F276B65AD00978FDB /* WoocerView.framework */; };
+		13CC7940276B65AD00978FDB /* WoocerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC793F276B65AD00978FDB /* WoocerViewTests.swift */; };
+		13CC7941276B65AD00978FDB /* WoocerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CC7931276B65AD00978FDB /* WoocerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13CC7944276B65AD00978FDB /* WoocerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC792F276B65AD00978FDB /* WoocerView.framework */; };
+		13CC7945276B65AD00978FDB /* WoocerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC792F276B65AD00978FDB /* WoocerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13CC7955276B65BF00978FDB /* WoocerModel.docc in Sources */ = {isa = PBXBuildFile; fileRef = 13CC7954276B65BF00978FDB /* WoocerModel.docc */; };
+		13CC795B276B65BF00978FDB /* WoocerModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC7951276B65BF00978FDB /* WoocerModel.framework */; };
+		13CC7962276B65BF00978FDB /* WoocerModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC7961276B65BF00978FDB /* WoocerModelTests.swift */; };
+		13CC7963276B65BF00978FDB /* WoocerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CC7953276B65BF00978FDB /* WoocerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13CC7966276B65BF00978FDB /* WoocerModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC7951276B65BF00978FDB /* WoocerModel.framework */; };
+		13CC7967276B65BF00978FDB /* WoocerModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC7951276B65BF00978FDB /* WoocerModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13CC796F276B665300978FDB /* WoocerModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC7951276B65BF00978FDB /* WoocerModel.framework */; };
+		13CC7970276B665300978FDB /* WoocerModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC7951276B65BF00978FDB /* WoocerModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13CC7974276B666400978FDB /* WoocerViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC790C276B659500978FDB /* WoocerViewModel.framework */; };
+		13CC7975276B666400978FDB /* WoocerViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC790C276B659500978FDB /* WoocerViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13CC7917276B659500978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC790B276B659500978FDB;
+			remoteInfo = WoocerViewModel;
+		};
+		13CC7919276B659500978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC78EF276A78CD00978FDB;
+			remoteInfo = Woocer;
+		};
+		13CC791F276B659500978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC790B276B659500978FDB;
+			remoteInfo = WoocerViewModel;
+		};
+		13CC793A276B65AD00978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC792E276B65AD00978FDB;
+			remoteInfo = WoocerView;
+		};
+		13CC793C276B65AD00978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC78EF276A78CD00978FDB;
+			remoteInfo = Woocer;
+		};
+		13CC7942276B65AD00978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC792E276B65AD00978FDB;
+			remoteInfo = WoocerView;
+		};
+		13CC795C276B65BF00978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC7950276B65BF00978FDB;
+			remoteInfo = WoocerModel;
+		};
+		13CC795E276B65BF00978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC78EF276A78CD00978FDB;
+			remoteInfo = Woocer;
+		};
+		13CC7964276B65BF00978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC7950276B65BF00978FDB;
+			remoteInfo = WoocerModel;
+		};
+		13CC7971276B665300978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC7950276B65BF00978FDB;
+			remoteInfo = WoocerModel;
+		};
+		13CC7976276B666400978FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC78E8276A78CD00978FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CC790B276B659500978FDB;
+			remoteInfo = WoocerViewModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13CC7926276B659500978FDB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				13CC7967276B65BF00978FDB /* WoocerModel.framework in Embed Frameworks */,
+				13CC7945276B65AD00978FDB /* WoocerView.framework in Embed Frameworks */,
+				13CC7922276B659500978FDB /* WoocerViewModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7973276B665300978FDB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				13CC7970276B665300978FDB /* WoocerModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7978276B666400978FDB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				13CC7975276B666400978FDB /* WoocerViewModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13CC78F0276A78CD00978FDB /* Woocer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woocer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +164,21 @@
 		13CC78FC276A78CE00978FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13CC78FF276A78CE00978FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13CC7901276A78CE00978FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CC790C276B659500978FDB /* WoocerViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WoocerViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CC790E276B659500978FDB /* WoocerViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WoocerViewModel.h; sourceTree = "<group>"; };
+		13CC790F276B659500978FDB /* WoocerViewModel.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WoocerViewModel.docc; sourceTree = "<group>"; };
+		13CC7915276B659500978FDB /* WoocerViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoocerViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CC791C276B659500978FDB /* WoocerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoocerViewModelTests.swift; sourceTree = "<group>"; };
+		13CC792F276B65AD00978FDB /* WoocerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WoocerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CC7931276B65AD00978FDB /* WoocerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WoocerView.h; sourceTree = "<group>"; };
+		13CC7932276B65AD00978FDB /* WoocerView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WoocerView.docc; sourceTree = "<group>"; };
+		13CC7938276B65AD00978FDB /* WoocerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoocerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CC793F276B65AD00978FDB /* WoocerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoocerViewTests.swift; sourceTree = "<group>"; };
+		13CC7951276B65BF00978FDB /* WoocerModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WoocerModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CC7953276B65BF00978FDB /* WoocerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WoocerModel.h; sourceTree = "<group>"; };
+		13CC7954276B65BF00978FDB /* WoocerModel.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WoocerModel.docc; sourceTree = "<group>"; };
+		13CC795A276B65BF00978FDB /* WoocerModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoocerModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CC7961276B65BF00978FDB /* WoocerModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoocerModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +186,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CC7966276B65BF00978FDB /* WoocerModel.framework in Frameworks */,
+				13CC7944276B65AD00978FDB /* WoocerView.framework in Frameworks */,
+				13CC7921276B659500978FDB /* WoocerViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7909276B659500978FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC796F276B665300978FDB /* WoocerModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7912276B659500978FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7916276B659500978FDB /* WoocerViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC792C276B65AD00978FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7974276B666400978FDB /* WoocerViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7935276B65AD00978FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7939276B65AD00978FDB /* WoocerView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC794E276B65BF00978FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7957276B65BF00978FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC795B276B65BF00978FDB /* WoocerModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +246,14 @@
 			isa = PBXGroup;
 			children = (
 				13CC78F2276A78CD00978FDB /* Woocer */,
+				13CC790D276B659500978FDB /* WoocerViewModel */,
+				13CC791B276B659500978FDB /* WoocerViewModelTests */,
+				13CC7930276B65AD00978FDB /* WoocerView */,
+				13CC793E276B65AD00978FDB /* WoocerViewTests */,
+				13CC7952276B65BF00978FDB /* WoocerModel */,
+				13CC7960276B65BF00978FDB /* WoocerModelTests */,
 				13CC78F1276A78CD00978FDB /* Products */,
+				13CC796E276B665300978FDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +261,12 @@
 			isa = PBXGroup;
 			children = (
 				13CC78F0276A78CD00978FDB /* Woocer.app */,
+				13CC790C276B659500978FDB /* WoocerViewModel.framework */,
+				13CC7915276B659500978FDB /* WoocerViewModelTests.xctest */,
+				13CC792F276B65AD00978FDB /* WoocerView.framework */,
+				13CC7938276B65AD00978FDB /* WoocerViewTests.xctest */,
+				13CC7951276B65BF00978FDB /* WoocerModel.framework */,
+				13CC795A276B65BF00978FDB /* WoocerModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +285,92 @@
 			path = Woocer;
 			sourceTree = "<group>";
 		};
+		13CC790D276B659500978FDB /* WoocerViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				13CC790E276B659500978FDB /* WoocerViewModel.h */,
+				13CC790F276B659500978FDB /* WoocerViewModel.docc */,
+			);
+			path = WoocerViewModel;
+			sourceTree = "<group>";
+		};
+		13CC791B276B659500978FDB /* WoocerViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				13CC791C276B659500978FDB /* WoocerViewModelTests.swift */,
+			);
+			path = WoocerViewModelTests;
+			sourceTree = "<group>";
+		};
+		13CC7930276B65AD00978FDB /* WoocerView */ = {
+			isa = PBXGroup;
+			children = (
+				13CC7931276B65AD00978FDB /* WoocerView.h */,
+				13CC7932276B65AD00978FDB /* WoocerView.docc */,
+			);
+			path = WoocerView;
+			sourceTree = "<group>";
+		};
+		13CC793E276B65AD00978FDB /* WoocerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				13CC793F276B65AD00978FDB /* WoocerViewTests.swift */,
+			);
+			path = WoocerViewTests;
+			sourceTree = "<group>";
+		};
+		13CC7952276B65BF00978FDB /* WoocerModel */ = {
+			isa = PBXGroup;
+			children = (
+				13CC7953276B65BF00978FDB /* WoocerModel.h */,
+				13CC7954276B65BF00978FDB /* WoocerModel.docc */,
+			);
+			path = WoocerModel;
+			sourceTree = "<group>";
+		};
+		13CC7960276B65BF00978FDB /* WoocerModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				13CC7961276B65BF00978FDB /* WoocerModelTests.swift */,
+			);
+			path = WoocerModelTests;
+			sourceTree = "<group>";
+		};
+		13CC796E276B665300978FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13CC7907276B659500978FDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC791E276B659500978FDB /* WoocerViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC792A276B65AD00978FDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7941276B65AD00978FDB /* WoocerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC794C276B65BF00978FDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7963276B65BF00978FDB /* WoocerModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		13CC78EF276A78CD00978FDB /* Woocer */ = {
@@ -77,15 +380,134 @@
 				13CC78EC276A78CD00978FDB /* Sources */,
 				13CC78ED276A78CD00978FDB /* Frameworks */,
 				13CC78EE276A78CD00978FDB /* Resources */,
+				13CC7926276B659500978FDB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				13CC7920276B659500978FDB /* PBXTargetDependency */,
+				13CC7943276B65AD00978FDB /* PBXTargetDependency */,
+				13CC7965276B65BF00978FDB /* PBXTargetDependency */,
 			);
 			name = Woocer;
 			productName = Woocer;
 			productReference = 13CC78F0276A78CD00978FDB /* Woocer.app */;
 			productType = "com.apple.product-type.application";
+		};
+		13CC790B276B659500978FDB /* WoocerViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CC7923276B659500978FDB /* Build configuration list for PBXNativeTarget "WoocerViewModel" */;
+			buildPhases = (
+				13CC7907276B659500978FDB /* Headers */,
+				13CC7908276B659500978FDB /* Sources */,
+				13CC7909276B659500978FDB /* Frameworks */,
+				13CC790A276B659500978FDB /* Resources */,
+				13CC7973276B665300978FDB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CC7972276B665300978FDB /* PBXTargetDependency */,
+			);
+			name = WoocerViewModel;
+			productName = WoocerViewModel;
+			productReference = 13CC790C276B659500978FDB /* WoocerViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13CC7914276B659500978FDB /* WoocerViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CC7927276B659500978FDB /* Build configuration list for PBXNativeTarget "WoocerViewModelTests" */;
+			buildPhases = (
+				13CC7911276B659500978FDB /* Sources */,
+				13CC7912276B659500978FDB /* Frameworks */,
+				13CC7913276B659500978FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CC7918276B659500978FDB /* PBXTargetDependency */,
+				13CC791A276B659500978FDB /* PBXTargetDependency */,
+			);
+			name = WoocerViewModelTests;
+			productName = WoocerViewModelTests;
+			productReference = 13CC7915276B659500978FDB /* WoocerViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13CC792E276B65AD00978FDB /* WoocerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CC7946276B65AD00978FDB /* Build configuration list for PBXNativeTarget "WoocerView" */;
+			buildPhases = (
+				13CC792A276B65AD00978FDB /* Headers */,
+				13CC792B276B65AD00978FDB /* Sources */,
+				13CC792C276B65AD00978FDB /* Frameworks */,
+				13CC792D276B65AD00978FDB /* Resources */,
+				13CC7978276B666400978FDB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CC7977276B666400978FDB /* PBXTargetDependency */,
+			);
+			name = WoocerView;
+			productName = WoocerView;
+			productReference = 13CC792F276B65AD00978FDB /* WoocerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13CC7937276B65AD00978FDB /* WoocerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CC7949276B65AD00978FDB /* Build configuration list for PBXNativeTarget "WoocerViewTests" */;
+			buildPhases = (
+				13CC7934276B65AD00978FDB /* Sources */,
+				13CC7935276B65AD00978FDB /* Frameworks */,
+				13CC7936276B65AD00978FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CC793B276B65AD00978FDB /* PBXTargetDependency */,
+				13CC793D276B65AD00978FDB /* PBXTargetDependency */,
+			);
+			name = WoocerViewTests;
+			productName = WoocerViewTests;
+			productReference = 13CC7938276B65AD00978FDB /* WoocerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13CC7950276B65BF00978FDB /* WoocerModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CC7968276B65BF00978FDB /* Build configuration list for PBXNativeTarget "WoocerModel" */;
+			buildPhases = (
+				13CC794C276B65BF00978FDB /* Headers */,
+				13CC794D276B65BF00978FDB /* Sources */,
+				13CC794E276B65BF00978FDB /* Frameworks */,
+				13CC794F276B65BF00978FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoocerModel;
+			productName = WoocerModel;
+			productReference = 13CC7951276B65BF00978FDB /* WoocerModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13CC7959276B65BF00978FDB /* WoocerModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CC796B276B65BF00978FDB /* Build configuration list for PBXNativeTarget "WoocerModelTests" */;
+			buildPhases = (
+				13CC7956276B65BF00978FDB /* Sources */,
+				13CC7957276B65BF00978FDB /* Frameworks */,
+				13CC7958276B65BF00978FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CC795D276B65BF00978FDB /* PBXTargetDependency */,
+				13CC795F276B65BF00978FDB /* PBXTargetDependency */,
+			);
+			name = WoocerModelTests;
+			productName = WoocerModelTests;
+			productReference = 13CC795A276B65BF00978FDB /* WoocerModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +521,27 @@
 				TargetAttributes = {
 					13CC78EF276A78CD00978FDB = {
 						CreatedOnToolsVersion = 13.2;
+					};
+					13CC790B276B659500978FDB = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					13CC7914276B659500978FDB = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 13CC78EF276A78CD00978FDB;
+					};
+					13CC792E276B65AD00978FDB = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					13CC7937276B65AD00978FDB = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 13CC78EF276A78CD00978FDB;
+					};
+					13CC7950276B65BF00978FDB = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					13CC7959276B65BF00978FDB = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 13CC78EF276A78CD00978FDB;
 					};
 				};
 			};
@@ -116,6 +559,12 @@
 			projectRoot = "";
 			targets = (
 				13CC78EF276A78CD00978FDB /* Woocer */,
+				13CC790B276B659500978FDB /* WoocerViewModel */,
+				13CC7914276B659500978FDB /* WoocerViewModelTests */,
+				13CC792E276B65AD00978FDB /* WoocerView */,
+				13CC7937276B65AD00978FDB /* WoocerViewTests */,
+				13CC7950276B65BF00978FDB /* WoocerModel */,
+				13CC7959276B65BF00978FDB /* WoocerModelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +577,48 @@
 				13CC7900276A78CE00978FDB /* LaunchScreen.storyboard in Resources */,
 				13CC78FD276A78CE00978FDB /* Assets.xcassets in Resources */,
 				13CC78FB276A78CD00978FDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC790A276B659500978FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7913276B659500978FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC792D276B65AD00978FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7936276B65AD00978FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC794F276B65BF00978FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7958276B65BF00978FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +635,113 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13CC7908276B659500978FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7910276B659500978FDB /* WoocerViewModel.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7911276B659500978FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC791D276B659500978FDB /* WoocerViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC792B276B65AD00978FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7933276B65AD00978FDB /* WoocerView.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7934276B65AD00978FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7940276B65AD00978FDB /* WoocerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC794D276B65BF00978FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7955276B65BF00978FDB /* WoocerModel.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC7956276B65BF00978FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC7962276B65BF00978FDB /* WoocerModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13CC7918276B659500978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC790B276B659500978FDB /* WoocerViewModel */;
+			targetProxy = 13CC7917276B659500978FDB /* PBXContainerItemProxy */;
+		};
+		13CC791A276B659500978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC78EF276A78CD00978FDB /* Woocer */;
+			targetProxy = 13CC7919276B659500978FDB /* PBXContainerItemProxy */;
+		};
+		13CC7920276B659500978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC790B276B659500978FDB /* WoocerViewModel */;
+			targetProxy = 13CC791F276B659500978FDB /* PBXContainerItemProxy */;
+		};
+		13CC793B276B65AD00978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC792E276B65AD00978FDB /* WoocerView */;
+			targetProxy = 13CC793A276B65AD00978FDB /* PBXContainerItemProxy */;
+		};
+		13CC793D276B65AD00978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC78EF276A78CD00978FDB /* Woocer */;
+			targetProxy = 13CC793C276B65AD00978FDB /* PBXContainerItemProxy */;
+		};
+		13CC7943276B65AD00978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC792E276B65AD00978FDB /* WoocerView */;
+			targetProxy = 13CC7942276B65AD00978FDB /* PBXContainerItemProxy */;
+		};
+		13CC795D276B65BF00978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC7950276B65BF00978FDB /* WoocerModel */;
+			targetProxy = 13CC795C276B65BF00978FDB /* PBXContainerItemProxy */;
+		};
+		13CC795F276B65BF00978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC78EF276A78CD00978FDB /* Woocer */;
+			targetProxy = 13CC795E276B65BF00978FDB /* PBXContainerItemProxy */;
+		};
+		13CC7965276B65BF00978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC7950276B65BF00978FDB /* WoocerModel */;
+			targetProxy = 13CC7964276B65BF00978FDB /* PBXContainerItemProxy */;
+		};
+		13CC7972276B665300978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC7950276B65BF00978FDB /* WoocerModel */;
+			targetProxy = 13CC7971276B665300978FDB /* PBXContainerItemProxy */;
+		};
+		13CC7977276B666400978FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CC790B276B659500978FDB /* WoocerViewModel */;
+			targetProxy = 13CC7976276B666400978FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		13CC78F9276A78CD00978FDB /* Main.storyboard */ = {
@@ -338,6 +935,294 @@
 			};
 			name = Release;
 		};
+		13CC7924276B659500978FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13CC7925276B659500978FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13CC7928276B659500978FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woocer.app/Woocer";
+			};
+			name = Debug;
+		};
+		13CC7929276B659500978FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woocer.app/Woocer";
+			};
+			name = Release;
+		};
+		13CC7947276B65AD00978FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13CC7948276B65AD00978FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13CC794A276B65AD00978FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woocer.app/Woocer";
+			};
+			name = Debug;
+		};
+		13CC794B276B65AD00978FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woocer.app/Woocer";
+			};
+			name = Release;
+		};
+		13CC7969276B65BF00978FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13CC796A276B65BF00978FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13CC796C276B65BF00978FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woocer.app/Woocer";
+			};
+			name = Debug;
+		};
+		13CC796D276B65BF00978FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8D29U4J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woocer.wordpress.WoocerModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woocer.app/Woocer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -355,6 +1240,60 @@
 			buildConfigurations = (
 				13CC7905276A78CE00978FDB /* Debug */,
 				13CC7906276A78CE00978FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CC7923276B659500978FDB /* Build configuration list for PBXNativeTarget "WoocerViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CC7924276B659500978FDB /* Debug */,
+				13CC7925276B659500978FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CC7927276B659500978FDB /* Build configuration list for PBXNativeTarget "WoocerViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CC7928276B659500978FDB /* Debug */,
+				13CC7929276B659500978FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CC7946276B65AD00978FDB /* Build configuration list for PBXNativeTarget "WoocerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CC7947276B65AD00978FDB /* Debug */,
+				13CC7948276B65AD00978FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CC7949276B65AD00978FDB /* Build configuration list for PBXNativeTarget "WoocerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CC794A276B65AD00978FDB /* Debug */,
+				13CC794B276B65AD00978FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CC7968276B65BF00978FDB /* Build configuration list for PBXNativeTarget "WoocerModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CC7969276B65BF00978FDB /* Debug */,
+				13CC796A276B65BF00978FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CC796B276B65BF00978FDB /* Build configuration list for PBXNativeTarget "WoocerModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CC796C276B65BF00978FDB /* Debug */,
+				13CC796D276B65BF00978FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
